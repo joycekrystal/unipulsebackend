@@ -1,0 +1,22 @@
+{
+	"compilerOptions": {
+		"outDir": "dist",
+		"baseUrl": ".",
+		"rootDir": ".",
+		"target": "ESNext",
+		"module": "CommonJS",
+		"moduleResolution": "node",
+		"strict": true,
+		"esModuleInterop": true,
+		"noImplicitAny": true,
+		"experimentalDecorators": true,
+		"strictPropertyInitialization": false,
+		"skipLibCheck": true,
+		"emitDecoratorMetadata": true,
+		"paths": {
+			"@/*": ["src/*"]
+		},
+		"typeRoots": ["./src/types"]
+	},
+	"exclude": ["node_modules", "dist"]
+}
